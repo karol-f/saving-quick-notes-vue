@@ -1,0 +1,19 @@
+.modal {
+  position: relative;
+  width: auto;
+  max-width: 500px;
+  margin: 4em auto;
+  padding: 1.75em;
+  background: #fff;
+}
+.modal-backdrop {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba($color-brand-background, 0.7);
+}
+.modal__header {
+  margin-bottom: 1em;
+}

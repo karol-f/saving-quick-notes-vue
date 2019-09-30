@@ -1,0 +1,21 @@
+.form-input {
+  display: block;
+  width: 100%;
+  height: 2.5em;
+  padding: .375rem .75rem;
+  font-size: 1em;
+  line-height: 1.5;
+  color: $color-text;
+  background-color: $color-positive;
+  border: 2px solid lighten($color-muted, 20%);
+  border-radius: 2px;
+}
+
+::placeholder {
+  color: $color-muted;
+}
+
+select.form-input,
+textarea.form-input {
+  height: auto;
+}

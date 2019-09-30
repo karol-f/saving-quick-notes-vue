@@ -1,0 +1,29 @@
+.button {
+  display: inline-block;
+  color: $color-positive;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  background-color: $color-brand;
+  border: 1px solid $color-brand;
+  padding: 8px 50px;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 2px;
+  transition: color .15s;
+  cursor: pointer;
+
+  &:hover {
+    background-color: lighten($color-brand, 10%);
+  }
+}
+
+.button--text {
+  background-color: transparent;
+  color: $color-brand;
+  border-color: transparent;
+
+  &:hover {
+    background-color: lighten($color-grey, 36%);
+  }
+}
